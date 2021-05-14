@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:id="@+id/imgBack"
+            android:src="@drawable/ic_back"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_height="30dp">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Clock In/Out"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content">
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:background="@drawable/sqare_line_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Enter Password"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:id="@+id/txtAnnouncement"
+            android:layout_width="match_parent"
+            android:hint="Enter Your Password"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/sqare_line_background"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:layout_height="wrap_content">
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="100dp"
+                    android:text="Yes"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:background="@drawable/sqare_line_background"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:layout_height="match_parent">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="100dp"
+                    android:text="No"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_height="match_parent">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

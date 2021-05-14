@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/holo_orange_dark"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <ImageView
+                android:id="@+id/navDrawer"
+                android:layout_width="50dp"
+                android:padding="13dp"
+                android:src="@drawable/nav_drawer"
+                android:layout_height="match_parent">
+            </ImageView>
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:text="Employee Management"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:paddingLeft="25dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"></TextView>
+            <ImageView
+                android:id="@+id/clock"
+                android:layout_width="50dp"
+                android:padding="13dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/checkinout"
+                android:layout_height="match_parent"></ImageView>
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <FrameLayout
+        android:layout_width="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        android:layout_height="65dp">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:src="@drawable/messenger"
+            />
+        <TextView
+            android:id="@+id/text_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="7dp"
+            android:padding="5dp"
+            android:minWidth="27dp"
+            android:gravity="center"
+            android:minHeight="20dp"
+            android:layout_gravity="end|top"
+            android:textColor="@color/white"
+            android:background="@drawable/badge_bf"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            tools:text="1" />
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Employee Management</string>
+    <string name="first_name">First Name</string>
+    <string name="employee_no">Employee No.</string>
+    <string name="password">Password</string>
+    <string name="employee_no_error">Please enter employee number.</string>
+    <string name="password_error">Please enter a password.</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters.</string>
+    <string name="login">Login</string>
+    <string name="create_new">Click Here To Register</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="create_password">Create Password</string>
+    <string name="conf_password">Confirm Password</string>
+    <string name="designation">Designation</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="select_address">Select Address</string>
+    <string name="register">Register</string>
+    <string name="already_register">Already Register? Login</string>
+    <string name="uploadDocuments">Upload Documents</string>
+    <string name="documentDetails">SIN/Work Permit/Identity Proof</string>
+    <string name="first_name_error">Please enter first name.</string>
+    <string name="last_name_error">Please enter last name.</string>
+    <string name="email_error">Please enter email address.</string>
+    <string name="error_invalid_email">Please enter valid email address.</string>
+    <string name="address_error">Please select address.</string>
+    <string name="phone_error">Please enter phone number.</string>
+    <string name="designation_error">Please enter designation.</string>
+    <string name="pass_conf_equal">Password and confirm password must be same.</string>
+    <string name="conf_password_error">Please enter confirm password.</string>
+    <string name="menu_home">Home</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="action_settings">Setting</string>
+    <string name="about_us_content">Fast and easy way to Manage Employee stuff manager details like Attendance,Leaves, Loan, Over time, salary calculator app &amp; many more. No need to use Attendance register or Play slip register for Worker Attendance as this Attendance app can do all the hard work for you. Very easy to Add or Delete employees &amp; mark attendance on daily basis. Get detailed report of Attendance &amp; Salary in PDF format at the end of every month. Now you also get monthly summary of all employees by just single tap. Its a complete Employee App.
+
+\n\nAttendance Tracker / Manager App Features:\n
+
+- Add &amp; Delete Employee.\n
+- Mark Attendance in a single click.\n
+- Debit &amp; Loan calculator.\n
+- Over time detail.\n
+- Payed Leaves criteria.\n
+- Salary Calculator / Salary Slips\n
+- Can Add predefined values for Overtime pay, half day etc.\n
+- Salary report of each Employee according to date range or month wise report.\n
+- Manage Employees Pay Slips and Salary Slips,Which include total days - present,absent, half day, holidays taken, overtime hours,salary, overtime wages,loan etc.\n\n
+
+Very useful App for Employee Attendance, Salary management &amp; specially for factory workers with monthly summary calculator with these many features.The Best Attendance App attendance register with so much ease to use. So Now you are just a click away from downloading this wonderful App so don\'t wait &amp; Download this Attendance App to make your work life really easy.
+Its a complete Employee Manager / Attendance Manager app.</string>
+
+</resources>
