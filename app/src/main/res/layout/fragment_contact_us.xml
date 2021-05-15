@@ -25,6 +25,6 @@
         android:textColor="@color/black"
         android:gravity="left"
         android:textSize="20sp"
-        android:text="This is simple Employee Management Application developed by Code Chaser.\n\nIf you are facing any issue or if you have any question feel free to reach us please find below contact details\n\nCode Chaser\nCanada\n+1 (548)333-5214\ncodechaser112@gmail.com\nAll Rights Reserved." />
+        android:text="This is simple Employee Management Application developed by Code Chaser.\n\nIf you are facing any issue or if you have any question feel free to reach us please find below contact details\n\nCode Chaser\nCanada\n+1 (567)123-6789\ncodechaser112@gmail.com\nAll Rights Reserved." />
 
 </LinearLayout>
